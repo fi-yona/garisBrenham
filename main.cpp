@@ -119,7 +119,7 @@ int main(int argC,char *argV[])
     glutInitDisplayMode(GLUT_RGB|GLUT_SINGLE);
     glutInitWindowPosition(0,0);
     glutInitWindowSize(500,500);
-    glutCreateWindow("Garis Brenham");
+    glutCreateWindow("Garis Bressenham");
     MyInit();
     glutDisplayFunc(Draw);
     glutMainLoop();
