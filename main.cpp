@@ -3,9 +3,9 @@
 #include<GL/glut.h>h
 #include<math.h>
 
-void Draw()
+void tampilan()
 {
-    GLfloat x1=30,y1=350,,x2=400,y2=350;
+    GLfloat x1=30,y1=350,x2=400,y2=350;
     GLfloat M,p,dx,dy,x,y,t;
     glClear(GL_COLOR_BUFFER_BIT);
 
@@ -121,6 +121,6 @@ int main(int argC,char *argV[])
     glutInitWindowSize(500,500);
     glutCreateWindow("Garis Bressenham");
     MyInit();
-    glutDisplayFunc(Draw);
+    glutDisplayFunc(tampilan);
     glutMainLoop();
 }
